@@ -1,25 +1,16 @@
 # # variable is name of memory location in program or container to store the data
-# name ="Haresh"
-# rollNo="21SW053"
-# department="Software Engineering"
+name ="Haresh"
+rollNo="21SW053"
+department="Software Engineering"
 
-# print("name =",name, "\nrollNo =",rollNo, "\ndepartment =", department)
+print("name =",name, "\nrollNo =",rollNo, "\ndepartment =", department)
 
 
 # # data types and input output 
 name= input("Enter your name =")
 age= int(input("Enter you age  ="))
 
-# print("Name =",name, "\nage =", age)
-
-# Using f-string (most modern & clean)
-print(f"Hello {name}, you are {age} years old!")
-
-# Using str.format()
-print("Hello {}, you are {} years old!".format(name, age))
-
-# Using % formatting (older style)
-print("Hello %s, you are %d years old!" % (name, age))
+print("Name =",name, "\nage =", age)
 
 b=False
 x="100"
@@ -68,6 +59,15 @@ print(a)
 name= input("Enter your name =")
 age = int(input("Enter your age ="))
 print("Hello",name,"you are", age,"years old!")
+
+# Using f-string (most modern & clean)
+print(f"Hello {name}, you are {age} years old!")
+
+# Using str.format()
+print("Hello {}, you are {} years old!".format(name, age))
+
+# Using % formatting (older style)
+print("Hello %s, you are %d years old!" % (name, age))
 
 
 # Take two numbers as input and print:
